@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+
+  #player {
+    width: 640px;
+    height: 360px;
+    margin: 50px auto;
+  }
+
+  .vjs-default-skin {
+    color: #fff;
+    background-color: #000;
+  }
+
+  .vjs-default-skin .vjs-control-bar {
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .vjs-default-skin .vjs-progress-control .vjs-progress-holder {
+    height: 6px;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .vjs-default-skin .vjs-play-progress,
+  .vjs-default-skin .vjs-load-progress {
+    background-color: #ee0000;
+  }
+
+  .vjs-default-skin .vjs-volume-level:before {
+    background-color: #ee0000;
+  }
+
+  .vjs-default-skin .vjs-big-play-button {
+    color: #ee0000;
+    border-color: #ee0000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
